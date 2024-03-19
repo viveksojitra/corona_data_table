@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to bottom, #c7ac91, #cdb69d, #d3c0aa, #dacab7, #e0d4c4, #d7ccbd, #cec3b5, #c5bbae, #ab9f91, #918476, #78695b, #605042);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type: var(--bs-table-striped-color);
+    --bs-table-bg-type: var(--bs-table-striped-bg);
+}
